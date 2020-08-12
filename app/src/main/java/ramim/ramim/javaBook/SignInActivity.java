@@ -26,6 +26,8 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     private TextView signUpTextView;
     private Button signInButton;
     private ProgressBar progressBar;
+    private TextView forget;
+
     private FirebaseAuth mAuth;
 
     @Override
@@ -48,12 +50,13 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         signUpTextView = findViewById(R.id.signUpTextViewID);
         signInButton = findViewById(R.id.signInButtonID);
         progressBar = findViewById(R.id.progressbarID);
-
+        forget = findViewById(R.id.forgetID);
 
 
 
         signUpTextView.setOnClickListener(this);
         signInButton.setOnClickListener(this);
+        forget.setOnClickListener(this);
 
 
         Animation animation = AnimationUtils.loadAnimation( SignInActivity.this,R.anim.myanimation);
@@ -79,6 +82,11 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
                 Intent intent = new Intent(getApplicationContext(),signUpACtivity.class);
                 startActivity(intent);
+                break;
+
+            case R.id.forgetID:
+                Intent op = new Intent(getApplicationContext(), PasswordResetActivity.class);
+                startActivity(op);
                 break;
         }
 

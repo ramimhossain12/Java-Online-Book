@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Java Online Book-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Java Online Book-app.iml" group="Java Online Book/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java-Online-Book.iml" filepath="$PROJECT_DIR$/.idea/modules/Java-Online-Book.iml" group="Java-Online-Book" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Java-Online-Book-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Java-Online-Book-app.iml" group="Java-Online-Book/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java_Online_Book.iml" filepath="$PROJECT_DIR$/.idea/modules/Java_Online_Book.iml" group="Java_Online_Book" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
