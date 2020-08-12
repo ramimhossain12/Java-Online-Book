@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:padding="10dp"
-    android:background="#283747 "
+
     tools:context="ramim.ramim.javaBook.MainActivity">
 
 

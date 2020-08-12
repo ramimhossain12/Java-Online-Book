@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#f6e58d"
+    android:background="#8BC34A"
     tools:context="ramim.ramim.javaBook.Main2Activity">
 
 
@@ -29,10 +29,10 @@
             android:id="@+id/lazyloderID"
             app:lazyloader_dotsRadius="16dp"
             app:lazyloader_firstDelayDur="150"
-            app:lazyloader_firstDotColor="@color/red"
+            app:lazyloader_firstDotColor="#03A9F4"
             app:lazyloader_interpolator="@android:anim/decelerate_interpolator"
             app:lazyloader_secondDelayDur="300"
-            app:lazyloader_secondDotColor="@color/green1"
+            app:lazyloader_secondDotColor="#FF5722"
             app:lazyloader_thirdDotColor="@color/yellow1" />
 
 
