@@ -22,7 +22,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Abstraction :"
+                android:text="Abstraction"
                 android:textColor="#1B1464"
                 android:textSize="35sp"
                 android:textStyle="bold"
