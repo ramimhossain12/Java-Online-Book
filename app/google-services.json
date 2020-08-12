@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1093499815862",
+    "firebase_url": "https://materialhomepagedashboar-19e4f.firebaseio.com",
+    "project_id": "materialhomepagedashboar-19e4f",
+    "storage_bucket": "materialhomepagedashboar-19e4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093499815862:android:30202fcb99a9a3b79ce317",
+        "android_client_info": {
+          "package_name": "luthra.harshit.materialhomepagedashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093499815862-9mpsj6krofp8js1lf4gnqf7v70nse7ip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "luthra.harshit.materialhomepagedashboard",
+            "certificate_hash": "3654b88e99502851dae05ee5fe44971cb17e1cbf"
+          }
+        },
+        {
+          "client_id": "1093499815862-fvihbcn7jo44b2f5u8jgbmqajjk7vajh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtupHMiZW70ERnaxcT3XPHMSsORNNFbCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093499815862-fvihbcn7jo44b2f5u8jgbmqajjk7vajh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

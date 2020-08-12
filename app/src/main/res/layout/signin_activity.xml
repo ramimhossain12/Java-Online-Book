@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+   android:background="@drawable/lemon"
+    tools:context=".SignInActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/qqq"
+        android:layout_marginBottom="100dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInEmailEditTextID"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/vpn_shape"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:paddingTop="15dp"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="Enter email address :"
+        android:layout_marginBottom="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInpasswordEditTextID"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="Enter password : "
+        android:background="@drawable/vpn_shape"
+        android:fontFamily="monospace"
+        android:paddingTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/signInButtonID"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/brt_shape"
+        android:backgroundTint="#0091ea "
+        android:textColor="#FFFFFF"
+        android:text="Login"/>
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="monospace"
+        android:id="@+id/signUpTextViewID"
+        android:textColor="#050500"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#DFDCDC"
+        android:background="@drawable/vpn_shape"
+        android:text="Not a member ? Sign up now !"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+
+        android:id="@+id/progressbarID"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

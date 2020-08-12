@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdd59"
+    android:padding="10dp"
+
+    tools:context="ramim.ramim.javaBook.PolyActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Polymorphism "
+                android:textColor="#4A8309"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/x"
+                android:layout_gravity="center"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Polymorphism :-"
+                android:textColor="#020202"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/po"
+                android:textColor="#4F9B78"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Polymorphism in Java with Real-Time Example :"
+                android:textColor="#020202"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/real"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of Polymorphism in Java \n
+There are two types of polymorphism in Java and they are as follows:
+"
+                android:textColor="#020202"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ploye"
+                android:layout_gravity="center"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Method Overloading in Java :-"
+                android:textColor="#4A8309"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ex"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Method Overloading: changing no. of arguments example :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/qq"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Method Overloading: changing data type of arguments :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bnn"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why Method Overloading is not possible by changing the return type of method only ?"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In java, method overloading is not possible by changing the return type of the method only because of ambiguity. Let's see how ambiguity may occur"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Method Overriding in Java :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ml"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rules for Java Method Overriding :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/as"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rules for Java Method Overriding :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/lm"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example of method overriding :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/df"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Method overriding vs overloading :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ovn"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Super Keyword in Java  :"
+                android:textColor="#7C4DFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lk"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/lo"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp3"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Java final variable Example :"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/li"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp4"
+                android:textColor="#080E01"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bike"
+                android:layout_gravity="center"
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/klk"
+                android:layout_gravity="center"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

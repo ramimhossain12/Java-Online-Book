@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffdd59"
+    tools:context="ramim.ramim.javaBook.objectActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object and class"
+                android:gravity="center"
+                android:textColor="#2c2c54"
+                android:layout_marginBottom="20dp"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jv"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/oop2"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1e272e"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text="What is Object And Class :"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/obj"
+                android:layout_marginTop="5dp"
+                android:textColor="#3c40c6"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cla"
+                android:layout_marginTop="5dp"
+                android:textColor="#3c40c6"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object And Class Different :"
+                android:layout_marginTop="10dp"
+                android:textColor="#1e272e"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/od"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class Example :"
+                android:layout_marginTop="5dp"
+                android:textColor="#1e272e"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/cm"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object Example :"
+                android:layout_marginTop="5dp"
+                android:textColor="#1e272e"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/o"
+                android:layout_gravity="center"
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

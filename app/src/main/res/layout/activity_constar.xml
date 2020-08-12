@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffdd59"
+    android:padding="10dp"
+    tools:context="ramim.ramim.javaBook.ConstarActivity">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Constructors :"
+                    android:textColor="#20bf6b"
+                    android:gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is Constructors ?"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp5"
+                    android:textColor="#8854d0"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example of default constructor :"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/al"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp6"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/oc"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp7"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/zm"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp8"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/af"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp9"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/xm"
+                    android:layout_gravity="center"
+                    />
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ym"
+                    android:layout_gravity="center"
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/mx"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Java Copy Constructor :"
+                    android:textColor="#000205"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp10"
+                    android:textColor="#009432"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/cb"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp11"
+                    android:textColor="#05c46b"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/zw"
+                    android:layout_gravity="center"
+                    />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>

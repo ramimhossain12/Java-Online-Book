@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffdd59"
+    tools:context="ramim.ramim.javaBook.InterfaceActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Interface "
+                android:textColor="#3B3B98"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Interfaces ?"
+                android:textColor="#3A6605"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o1"
+                android:textColor="#474787"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o2"
+                android:textColor="#040700"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o3"
+                android:textColor="#536DFE"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/inter"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o4"
+                android:textColor="#536DFE"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o5"
+                android:textColor="#536DFE"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o6"
+                android:textColor="#536DFE"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/zcx"
+                android:layout_gravity="center"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

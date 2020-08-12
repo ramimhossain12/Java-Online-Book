@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffdd59"
+    tools:context="ramim.ramim.javaBook.AbstractionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abstraction :"
+                android:textColor="#1B1464"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp12"
+                android:textColor="#2C3A47"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp13"
+                android:textColor="#009432"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/atm"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp14"
+                android:textColor="#009432"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp15"
+                android:textColor="#080809"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abstract Class :"
+                android:textColor="#009432"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp16"
+                android:textColor="#080809"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp17"
+                android:textColor="#009432"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lp18"
+                android:textColor="#080809"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example :"
+                android:textColor="#009432"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/kjl"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Difference between Abstraction vs Encapsulation  :"
+                android:textColor="#009432"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/dif"
+                android:layout_gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout
+    >

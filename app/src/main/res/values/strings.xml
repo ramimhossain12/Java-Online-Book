@@ -1,0 +1,425 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">JAVA ONLINE BOOK</string>
+    <string name="check_your_bank_activities">Check your  activities</string>
+    <string name="obj">Objects : An entity that has state and behavior is known as an object e.g., chair, bike, marker, pen, table, car, etc.\n
+</string>
+    <string name="cla">Class : A class can be defined as a template/blueprint that describes the behavior/state that the object of its type support.
+</string>
+    <string name="jv">Java is an Object-Oriented Language. As a language that has the Object-Oriented feature, Java supports the following fundamental concepts −</string>
+
+    <string name="po">Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+</string>
+
+    <string name="ex">1. If a class has multiple methods having same name but different in parameters, it is known as Method Overloading. \n
+                      2. Advantage of method overloading. \n
+                         Method overloading increases the readability of the program.\n
+                      3. Different ways to overload the method. \n
+                      4. There are two ways to overload the method in java.\n
+                      5. By changing number of arguments. \n
+</string>
+
+    <string name="ml">1. If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.\n
+        2. Usage of Java Method Overriding \n
+        3. Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.\n
+        4.  Method overriding is used for runtime polymorphism
+
+    </string>
+
+    <string name="lk"> 1. The super keyword in Java is a reference variable which is used to refer immediate parent class object.\n
+            2. Usage of Java super Keyword :
+    super can be used to refer immediate parent class instance variable.
+    super can be used to invoke immediate parent class method.
+    super() can be used to invoke immediate parent class constructor.
+
+</string>
+    <string name="lp">
+
+        super is used to refer immediate parent class instance variable
+    </string>
+    <string name="lp2">Final Keyword In Java</string>
+
+    <string name="lp3">
+        The final keyword in java is used to restrict the user. The java final keyword can be used in many context. Final can be: \n
+      1. variable \n
+      2.method \n
+      3. class
+
+    </string>
+
+    <string name="lp4">
+
+        Example of final variable
+    </string>
+
+    <string name="lp5">
+
+        In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.\n
+       Types of Java constructors \n
+       1. Default constructor (no-arg constructor)\n
+       2. Parameterized constructor
+
+    </string>
+
+
+    <string name="lp6">
+
+        Example of default constructor :
+    </string>
+    <string name="lp7">
+        Java Parameterized Constructor :
+    </string>
+    <string name="lp8">
+        Difference between constructor and method in Java :
+    </string>
+
+    <string name="lp9">
+
+        Example Constructor Overloading in Java :
+    </string>
+
+    <string name="lp10">
+
+        To create a copy constructor, we can first declare a constructor that takes an object of the same type as a parameter:
+    </string>
+
+    <string name="lp11">
+
+        If the Java class has mutable fields, then we can instead make a deep copy inside its copy constructor. With a deep copy, the newly created object is independent of the original one because we create a distinct copy of each mutable object:
+
+    </string>
+
+    <string name="lp12">
+           What is Abstraction  : \n
+        Abstraction is the process of hiding the implementation details and showing only the functionality to the user.
+
+
+    </string>
+    <string name="lp13">
+
+        Real life example :
+    </string>
+    <string name="lp14">
+        How to achieve abstraction ?
+    </string>
+
+    <string name="lp15">
+
+        There  are two way to achieve abstraction in java:- \n
+        1. Abstract class (0 to 100%) work.\n
+        2.Interface(achieve 100% abstraction) work.
+
+    </string>
+    <string name="lp16">
+
+        Non abstract class :
+class man{
+} \n
+
+
+
+abstract class:
+ Abstract class man{
+}
+
+
+    </string>
+
+    <string name="lp17">
+        Abstract method :
+    </string>
+    <string name="lp18">
+        1. If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes, you can declare the method in the parent class as an abstract \n
+        2. abstract keyword is used to declare the method as abstract. \n
+        3. You have to place the abstract keyword before the method name in the method declaration.\n
+        4. An abstract method contains a method signature, but no method body.\n
+        5. Instead of curly braces, an abstract method will have a semoi colon (;) at the end.
+
+
+
+
+    </string>
+
+    <string name="o1">
+
+        An interface is a reference type in Java. It is similar to class. It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+
+    </string>
+
+    <string name="o2">
+
+        1. As mentioned above is used for full abstraction. Therefore, the methods in interfaces do not contain the body, they have to be implemented by the class itself before accessing them. \n
+        2. The class which is implementing interface must implement all the methods of the interface. Java doesn’t allow you to extend multiple classes, but you can implement more than one interface in your class.
+
+
+    </string>
+
+    <string name="o3">
+        Real life example ?
+    </string>
+
+    <string name="o4">
+
+        Declaring Interfaces ?
+    </string>
+
+    <string name="o5">
+        import java.lang.*;\n
+ public interface NameOfInterface {\n
+}
+
+    </string>
+
+    <string name="o6">
+
+        Implementing Interfaces ?
+    </string>
+
+    <string name="i1">
+
+        What is encapsulation ?
+    </string>
+
+    <string name="i2">
+
+        Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
+
+
+    </string>
+
+    <string name="i3">
+
+        Advantages of Encapsulation in Java ?
+    </string>
+
+    <string name="i4">
+
+        1 .Getter and Setter Methods – Private member can only be accessed within the same class. An outside class can not access the data members of that class. If you need to access these variables, you have to use public “getter” and “setter” methods. \n
+        2. Flexibility – With this, we can make the data as read-only or write-only as we require it to be. It also improves the maintainability and flexibility of code. \n
+        3. Reusability – It allows the user to a programmer to use the existing code again and again in an effective way.\n
+        4.Testing of the code – Ease of testing becomes easy. So it is better for Unit testing.
+
+
+
+
+    </string>
+
+    <string name="i5">
+
+        Benefits of Encapsulation ?
+    </string>
+
+
+    <string name="i6">
+
+        1. The fields of a class can be made read-only or write-only.\n
+        2. A class can have total control over what is stored in its fields.
+
+
+    </string>
+
+    <string name="i7">
+
+        To achieve encapsulation in Java − \n
+        1.Declare the variables of a class as private.\n
+        2.Provide public setter and getter methods to modify and view the variables values.
+
+
+
+
+    </string>
+    <string name="i8">
+        Real life Example ?
+    </string>
+
+    <string name="i9">
+
+        Example by code ?
+    </string>
+
+    <string name="i10">
+
+        A java package is a group of similar types of classes, interfaces and sub-packages.
+
+    </string>
+    <string name="i11">
+        Real life example in Package :
+    </string>
+
+
+    <string name="i12">
+
+        How to access package from another package?\n
+        1. import package.*;\n
+        2.import package.classname;\n
+        3. fully qualified name.
+
+    </string>
+
+    <string name="i13">
+        Access Modifiers in Java :
+    </string>
+
+    <string name="i14">
+        What is access modifiers in java ?
+    </string>
+    <string name="i15">
+
+        There are two types of modifiers in Java: access modifiers and non-access modifiers.
+
+    </string>
+
+    <string name="i16">
+
+        Access Modifiers in Java :
+    </string>
+
+    <string name="i17">
+
+        Access modifiers and non-access modifiers :
+    </string>
+
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Enter your name to take quiz</string>
+
+    <!-- Question 1 [CHAR LIMIT=NONE] -->
+    <!-- Correct: B -->
+    <string name="txt_1">1. Which of these languages does a computer understand without the need for a compiler ? \n</string>
+
+    <string name="rad_1a">Java</string>
+    <string name="rad_1b">Binary</string>
+    <string name="rad_1c">Visual Basic</string>
+    <string name="rad_1d">English</string>
+
+    <!-- Question 2 [CHAR LIMIT=NONE] -->
+    <!-- Correct Ans: Algorithm -->
+    <string name="txt_2">is a step by step method for solving a specific problem.</string>
+
+    <!-- Question 3 [CHAR LIMIT=NONE] -->
+    <!-- Correct: A -->
+    <string name="txt_3">3. The program written by a programmer is best referred to as ......... </string>
+    <string name="rad_3a">Source Code</string>
+    <string name="rad_3b">Programmer\'s Code</string>
+    <string name="rad_3c">Object Code</string>
+    <string name="rad_3d">Legacy Code</string>
+
+    <!-- Question 4 [CHAR LIMIT=NONE] -->
+    <!-- Correct: C -->
+    <string name="txt_4">4. The following are programming languages except one</string>
+    <string name="rad_4a">Python</string>
+    <string name="rad_4b">Assembly</string>
+    <string name="rad_4c">Compiler</string>
+    <string name="rad_4d">Ruby</string>
+
+    <!-- Question 5 [CHAR LIMIT=NONE] -->
+    <!-- Correct: C -->
+    <string name="txt_5">5. Which of these is the protocol for the web?</string>
+    <string name="rad_5a">FTP</string>
+    <string name="rad_5b">IP</string>
+    <string name="rad_5c">HTTP</string>
+    <string name="rad_5d">SSL</string>
+
+    <!-- Question 6 [CHAR LIMIT=NONE] -->
+    <!-- Correct: B, C, E -->
+    <string name="txt_6">6. Select all the web browsers</string>
+    <string name="chk_6a">Android</string>
+    <string name="chk_6b">Chrome</string>
+    <string name="chk_6c">Safari</string>
+    <string name="chk_6d">HTML</string>
+    <string name="chk_6e">Firefox</string>
+
+    <!-- Question 7 [CHAR LIMIT=NONE] -->
+    <!-- Correct: D -->
+    <string name="txt_7">7. All these are operating systems except .......</string>
+    <string name="rad_7a">Android</string>
+    <string name="rad_7b">Windows</string>
+    <string name="rad_7c">Linux</string>
+    <string name="rad_7d">Chrome</string>
+
+    <!-- Question 8 [CHAR LIMIT=NONE] -->
+    <!-- Correct: B -->
+    <string name="txt_8">8. Pick out the odd one</string>
+    <string name="rad_8a">Scanner</string>
+    <string name="rad_8b">Monitor</string>
+    <string name="rad_8c">Keyboard</string>
+    <string name="rad_8d">Mouse</string>
+
+    <!-- Question 9 [CHAR LIMIT=NONE] -->
+    Correct Ans: 8
+    <string name="txt_9">How many bits are there in a byte?</string>
+
+    <!-- Question 10 [CHAR LIMIT=NONE] -->
+    <!-- Correct: D -->
+    <string name="txt_10">10. The product of a compiler/interpreter is best referred to as .........</string>
+    <string name="rad_10a">Function</string>
+    <string name="rad_10b">Data Code</string>
+    <string name="rad_10c">Source Code</string>
+    <string name="rad_10d">Object Code</string>
+
+
+    <string name="txt_11">11. HashSet internally uses? .........</string>
+    <string name="rad_11a">HashMap</string>
+    <string name="rad_11b">Data Code</string>
+    <string name="rad_11c">TreeMap</string>
+    <string name="rad_11d">LinkedHashMap</string>
+
+
+    <!-- Submit Quiz Button [CHAR LIMIT=20] -->
+    <string name="submit_quiz_btn">Submit Quiz</string>
+
+    <!-- Reset Quiz Button [CHAR LIMIT=20] -->
+    <string name="reset_quiz_btn">Reset Quiz</string>
+
+    <!-- Empty name field message [CHAR LIMIT=50] -->
+    <string name="empty_name_field_msg">Please enter your name!</string>
+
+    <!-- Toast message with total score [CHAR LIMIT=100] -->
+    <string name="user_score_msg">Hi <xliff:g example="Ikemefuna" id="name">%s</xliff:g>, you scored <xliff:g example="7" id="total_score">%d</xliff:g></string>
+
+
+    <string name="about_o">Md.Ramim Hossain\nEmail:ramimhossain6242@gmail.com</string>
+    <string name="about_t">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android app development. Love to build android application.</string>
+
+
+    //question
+
+    <string name="nm1">
+
+         1. Java Program to Print an Integer (Entered by the User)\n
+         2. Java Program to Add Two Integers\n
+         3.  Java Program to Multiply two Floating Point Numbers\n
+         4.  Java Program to Find ASCII Value of a character\n
+         5.  Java Program to Compute Quotient and Remainder\n
+         6.  Java Program to Swap Two Numbers\n
+         7.  Java Program to Check Whether a Number is Even or Odd\n
+         8. Java Program to Check Whether an Alphabet is Vowel or Consonant\n
+         9. Java Program to Find the Largest Among Three Numbers\n
+         10. Java Program to Find all Roots of a Quadratic Equation\n
+         11. Java Program to Check Leap Year\n
+         12. Java Program to Check Whether a Number is Positive or Negative\n
+         13.  Java Program to Check Whether a Character is Alphabet or Not\n
+         14.  Java Program to Calculate the Sum of Natural Numbers\n
+         15. Java Program to Find Factorial of a Number\n
+       16. Java Program to Generate Multiplication Table\n
+17.Java Program to Display Fibonacci Series\n
+18.Java Program to Find GCD of two Numbers\n
+19.Java Program to Find LCM of two Numbers\n
+20.Java Program to Display Characters from A to Z using loop\n
+21.Java Program to Count Number of Digits in an Integer\n
+22.Java Program to Reverse a Number\n
+23.Java Program to Calculate the Power of a Number\n
+24.Java Program to Check Whether a Number is Palindrome or Not\n
+25.Java Program to Check Whether a Number is Prime or Not\n
+26.Java Program to Display Prime Numbers Between Two Intervals\n
+27.Java Program to Check Armstrong Number\n
+28.Java Program to Display Armstrong Number Between Two Intervals\n
+29.Java Program to Display Prime Numbers Between Intervals Using Function\n
+30.Java Program to Display Armstrong Numbers Between Intervals Using Function\
+
+    </string>
+
+    <string name="about1">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development. Love to build android and ios application.</string>
+
+    <string name="about2">Email:ramim.cse.info@gmail.com</string>
+    <string name="about3">01852068420</string>
+</resources>
