@@ -17,16 +17,13 @@ public class Main2Activity extends AppCompatActivity {
     private static  int timeout =6000;
     LazyLoader lazyLoader;
 
-    TextView textView;
-    ImageView imageView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
 
-        textView = findViewById(R.id.textViewID);
-        imageView = findViewById(R.id.imageViewID);
 
         lazyLoader = findViewById(R.id.lazyloderID);
 
@@ -39,9 +36,7 @@ public class Main2Activity extends AppCompatActivity {
         loader.setSecondDelayDuration(200);
         loader.setInterpolator(new LinearInterpolator());
 
-        Animation animation = AnimationUtils.loadAnimation(Main2Activity.this,R.anim.myanimation);
-        imageView.startAnimation(animation);
-        textView.startAnimation(animation);
+
 
 
         Handler handler = new Handler();
