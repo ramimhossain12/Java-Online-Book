@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">JAVA ONLINE BOOK</string>
+    <string name="app_name">JAVA BOOK</string>
     <string name="check_your_bank_activities">Check your  activities</string>
     <string name="obj">Objects : An entity that has state and behavior is known as an object e.g., chair, bike, marker, pen, table, car, etc.\n
 </string>

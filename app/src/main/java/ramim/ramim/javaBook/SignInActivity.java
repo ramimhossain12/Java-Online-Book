@@ -59,12 +59,12 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         forget.setOnClickListener(this);
 
 
-        Animation animation = AnimationUtils.loadAnimation( SignInActivity.this,R.anim.myanimation);
-        signInPasswordEditText.startAnimation(animation);
-
-        signUpTextView.startAnimation(animation);
-        signInButton.startAnimation(animation);
-        signInEmailEditText.startAnimation(animation);
+//        Animation animation = AnimationUtils.loadAnimation( SignInActivity.this,R.anim.myanimation);
+//        signInPasswordEditText.startAnimation(animation);
+//
+//        signUpTextView.startAnimation(animation);
+//        signInButton.startAnimation(animation);
+//        signInEmailEditText.startAnimation(animation);
 
     }
 
